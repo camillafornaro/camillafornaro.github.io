@@ -3,11 +3,9 @@
   width: 100%;
 }
 
-.pad-section {
+.About {
   padding: 50px 0;
-}
-.pad-section img {
-  width: 100%;
+  border: 2px solid #000000;
 }
 
 .text-vcenter {
@@ -23,7 +21,7 @@
 }
 
 #home {
-  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -34,16 +32,17 @@
   background-size: cover;
 }
 
-div.circle-avatar{
-  max-width: 100%;
-  width: 100%;
-  height: auto;
+.profile-image {
+  border: 3px solid #000000;
   display: block;
-  padding-top:100%;
-  border-radius:50%;
-  background-position-y: center;
-  background-position-x: center;
-  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  max-width: 50%;
+  max-height: auto;
+  border-radius: 50%;
+  
 }
 
 .fa {
@@ -57,4 +56,15 @@ div.circle-avatar{
 #contacts {
   background-color: #306d9f;
   color: #ffffff;
+  padding-bottom: 1em;
+}
+
+.navbar-brand {
+  font-family: Dancing;
+  font-size: 2em;
+}
+
+@font-face {
+  font-family: Dancing;
+  src: url("../fonts/DancingScript-Regular.ttf");
 }
