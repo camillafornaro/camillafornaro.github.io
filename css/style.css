@@ -1,0 +1,60 @@
+﻿html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.circle-avatar{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-top:100%;
+  border-radius:50%;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#contacts {
+  background-color: #306d9f;
+  color: #ffffff;
+}
