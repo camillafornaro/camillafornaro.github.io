@@ -13,7 +13,7 @@
 <body>
   
 <!-- navbar -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <p class="navbar-brand">Camilla Fornaro</p>
@@ -22,11 +22,6 @@
       </button>
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse-main">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">Chi sono</a></li>
-        <li><a href="#contacts">Contatti</a></li>
-      </ul>
     </div>
   </div>
 </nav>
@@ -36,21 +31,50 @@
 <!-- first section - Home -->
 <div id="home" class="Home">
   <div class="text-vcenter">
-    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h1>
+    <h1></h1>
   </div>
 </div>
 <!-- end of Home -->
 
 <!--About -->
 <div id="about" class="About">
-  <div class="container">
+  <div id="cont" class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <img src="images/cam.png" class="profile-image"  />
+      <div class="col-sm-4">
+        <img src="images/cam.png" class="profile-image" />
       </div>
-      <div class="col-sm-6 text-center">
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</p>
+      <div id="oppala" class="col-sm-8 text-left">
+        <h2 id="header_about">
+          Lezioni private
+        </h2>
+          <blockquote>
+            <p class="lead text-left">
+            Sono una laureanda in Lettere Classiche all'Università degli studi di Padova.
+            Impartisco ripetizioni mirate a studenti di tutte le fasce d'età di
+            <strong>latino</strong>, <strong>greco</strong>, <strong>italiano</strong>, <strong>storia</strong> e <strong>geografia</strong>.
+            Mi occupo di:
+            </p>
+            <ul>
+              <li><p class="lead text-left">aiuto compiti</p></li> 
+              <li><p class="lead text-left">preparazione per interrogazioni</p></li> 
+              <li><p class="lead text-left">recupero debiti</p></li>
+              <li><p class="lead text-left">miglioramento delle abilità linguistiche</p></li>
+            </ul>
+            <p class="lead text-left">
+            Un apprendimento efficiente e adatto alle necessità dello studente:
+            dall'utilizzo del vocabolario alle tecniche utili per memorizzare,
+            agli esercizi per potenziare la morfologia o il lessico, alle tecniche di
+            traduzione. Lezioni preparate ad hoc per facilitare l'acquisizione di un
+            <strong>Metodo di Studio</strong>. <br>
+            Dopo una prima lezione conoscitiva, assieme poniamo degli
+            obiettivi da raggiungere in base alle carenze riscontrate. 
+            Sono disponibile anche per ripetizioni di coppia o di gruppo e per 
+            <strong>percorsi di primo apprendimento</strong> di latino, greco e/o italiano. 
+            Offro il servizio anche <strong>via Skype</strong> e <strong>a domicilio</strong>
+            solo nella città di Padova. <br> 
+            Le info per contattarmi sono qui sotto.
+            </p>
+        </blockquote>
       </div>
     </div>
   </div>
@@ -61,7 +85,7 @@
 <div id="contacts">
   <div class="container">
     <h2 class="text-center">Per contattarmi</h2> <hr />
-    <p class="text-center lead"> Numero di telefono: 348 6454128 </p>
+    <p class="text-center lead">Numero di telefono: 348 6454128 </p>
     <p class="text-center lead">email: camillaforn@gmail.com</p>
   </div>
 </div>
@@ -74,11 +98,9 @@
   </div>
 </footer>
   
-  
   <!--JavaScripts -->
   <script src="js/jquery-1.10.2.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-  
 </body>
 </html>
